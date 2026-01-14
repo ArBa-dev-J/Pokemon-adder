@@ -8,27 +8,27 @@ function Form() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    };
+    try {
+      const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      };
+
+      const response = await fetch(
+        "http://localhost:3000/pokemon",
+        requestOptions
+      );
+      if (response.ok) {
+        alert("data was sent");
+      } else {
+        throw new Error("Error");
+      }
+    } catch (error) {
+      alert(error.message);
+    }
   };
-
-  // const sendData = async (e) => {
-  //   try {
-  //     e.preventDefault();
-  //     const response = await fetch("http://localhost:3000/", requestOptions);
-  //     if (response.ok) {
-  //       alert("data was sent");
-  //     } else {
-  //       throw new Error("Error");
-  //     }
-  //   } catch (error) {
-  //     alert("error_");
-  //   }
-  // };
-
+   
   return (
     <>
       <section>

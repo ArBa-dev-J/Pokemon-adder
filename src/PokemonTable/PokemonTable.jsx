@@ -23,17 +23,19 @@ function PokemonTable() {
 
   return (
     <>
+      <div>{error}</div>
       {pokemon.map((pokemon) => (
-        <>
-          <div>{error}</div>
-          <div id="card" key={pokemon.id} className="flex flex-col border p-30 mt-9 ">
-            <img src={pokemon.img} alt={pokemon.name} />
-            <div className="text-center">
-              <p>{pokemon.name}</p>
-              <p>{pokemon.hp}</p>
-            </div>
+        <div
+          id="card"
+          key={pokemon.id}
+          className="flex flex-col border p-30 mt-9 "
+        >
+          <img src={pokemon.img} alt={pokemon.name} />
+          <div className="text-center">
+            <p>{pokemon.name}</p>
+            <p>{pokemon.hp}</p>
           </div>
-        </>
+        </div>
       ))}
     </>
   );
