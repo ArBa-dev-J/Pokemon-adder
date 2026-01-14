@@ -8,25 +8,26 @@ function Form() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    try {
-      const response = await fetch(
-        "http://localhost:3000/",
-        {
-          method: "POST",
-          header: { "Content-type": "application/json" },
-          body: JSON.stringify(data)
-        }
-      );
-
-      if (response.ok) {
-        alert("Data was uploaded");
-      } else {
-        throw new Error("Error");
-      }
-    } catch (error) {
-      alert("error");
-    }
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    };
   };
+
+  // const sendData = async (e) => {
+  //   try {
+  //     e.preventDefault();
+  //     const response = await fetch("http://localhost:3000/", requestOptions);
+  //     if (response.ok) {
+  //       alert("data was sent");
+  //     } else {
+  //       throw new Error("Error");
+  //     }
+  //   } catch (error) {
+  //     alert("error_");
+  //   }
+  // };
 
   return (
     <>
