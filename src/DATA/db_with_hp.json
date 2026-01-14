@@ -28,7 +28,7 @@
           "name": "Metapod"
         }
       ],
-      "hp": 100
+      "hp": 150
     },
     {
       "id": "13",
@@ -57,7 +57,7 @@
           "name": "Beedrill"
         }
       ],
-      "hp": 100
+      "hp": 190
     },
     {
       "id": "14",
@@ -88,7 +88,7 @@
           "name": "Beedrill"
         }
       ],
-      "hp": 100
+      "hp": 140
     },
     {
       "id": "15",
@@ -117,7 +117,7 @@
           "name": "Kakuna"
         }
       ],
-      "hp": 100
+      "hp": 1000
     },
     {
       "id": "16",
@@ -408,7 +408,7 @@
           "name": "Nidoqueen"
         }
       ],
-      "hp": 100
+      "hp": 170
     },
     {
       "id": "31",
@@ -437,7 +437,7 @@
           "name": "Nidorina"
         }
       ],
-      "hp": 100
+      "hp": 110
     },
     {
       "id": "32",
@@ -520,7 +520,7 @@
           "name": "Nidorino"
         }
       ],
-      "hp": 100
+      "hp": 110
     },
     {
       "id": "35",
@@ -541,7 +541,7 @@
           "name": "Clefable"
         }
       ],
-      "hp": 100
+      "hp": 120
     },
     {
       "id": "36",
@@ -562,7 +562,7 @@
           "name": "Clefairy"
         }
       ],
-      "hp": 100
+      "hp": 150
     },
     {
       "id": "37",
@@ -585,7 +585,7 @@
           "name": "Ninetales"
         }
       ],
-      "hp": 100
+      "hp": 140
     },
     {
       "id": "38",
@@ -608,7 +608,7 @@
           "name": "Vulpix"
         }
       ],
-      "hp": 100
+      "hp": 110
     },
     {
       "id": "39",
@@ -648,31 +648,6 @@
         {
           "num": "039",
           "name": "Jigglypuff"
-        }
-      ],
-      "hp": 100
-    },
-    {
-      "id": "41",
-      "num": "041",
-      "name": "Zubat",
-      "img": "http://www.serebii.net/pokemongo/pokemon/041.png",
-      "type": [
-        "Poison",
-        "Flying"
-      ],
-      "height": "0.79 m",
-      "weight": "7.5 kg",
-      "weaknesses": [
-        "Electric",
-        "Ice",
-        "Psychic",
-        "Rock"
-      ],
-      "next_evolution": [
-        {
-          "num": "042",
-          "name": "Golbat"
         }
       ],
       "hp": 100
@@ -3150,76 +3125,6 @@
         }
       ],
       "hp": 100
-    },
-    {
-      "id": "149",
-      "num": "149",
-      "name": "Dragonite",
-      "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
-      "type": [
-        "Dragon",
-        "Flying"
-      ],
-      "height": "2.21 m",
-      "weight": "210.0 kg",
-      "weaknesses": [
-        "Ice",
-        "Rock",
-        "Dragon",
-        "Fairy"
-      ],
-      "prev_evolution": [
-        {
-          "num": "147",
-          "name": "Dratini"
-        },
-        {
-          "num": "148",
-          "name": "Dragonair"
-        }
-      ],
-      "hp": 100
-    },
-    {
-      "id": "150",
-      "num": "150",
-      "name": "Mewtwo",
-      "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
-      "type": [
-        "Psychic"
-      ],
-      "height": "2.01 m",
-      "weight": "122.0 kg",
-      "weaknesses": [
-        "Bug",
-        "Ghost",
-        "Dark"
-      ],
-      "hp": 100
-    },
-    {
-      "id": "151",
-      "num": "151",
-      "name": "Mew",
-      "img": "http://www.serebii.net/pokemongo/pokemon/151.png",
-      "type": [
-        "Psychic"
-      ],
-      "height": "0.41 m",
-      "weight": "4.0 kg",
-      "weaknesses": [
-        "Bug",
-        "Ghost",
-        "Dark"
-      ],
-      "hp": 100
-    },
-    {
-      "id": "d6c3",
-      "name": "Loki",
-      "hp": "10",
-      "img": "null",
-      "backImg": "null"
     }
   ]
 }
